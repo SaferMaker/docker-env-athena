@@ -10,5 +10,5 @@ RUN cd athena && \
   tar -xzf athena-linux.tar.gz
 ENV ATHENA_HOME /athena
 ENV PATH /athena/:$PATH
-RUN touch minisat_out.txt
+RUN touch athena/minisat_out.txt
 
